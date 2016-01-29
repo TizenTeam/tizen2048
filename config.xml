@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://yourdomain/2048" version="1.0.0" width="600" height="600">
+    <tizen:application id="TIZENGAMES.2048" package="TIZENGAMES" required_version="1.0"/>
+    <content src="index.html"/>
+    <icon src="icon.png"/>
+    <name>2048</name>
+    <tizen:setting screen-orientation="landscape" contextmenu="enable"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+</widget>
